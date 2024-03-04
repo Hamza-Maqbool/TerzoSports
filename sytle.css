@@ -1,0 +1,59 @@
+/* Add this CSS to the existing styles.css file */
+
+/* Slider styles */
+.w3l-main-slider {
+    padding: 100px 0;
+  }
+  
+  .banner-view {
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+  }
+  
+  .banner-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+  
+  .banner-text {
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    padding: 10px 25px;
+    border-radius: 25px;
+  }
+  
+  .btn-style {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .transparent-btn {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    margin-left: 10px;
+  }
+  
+  .transparent-btn:hover {
+    background-color: #fff;
+    color: #4CAF50;
+  }
+  
+  /* Styling for individual slides */
+  .banner-top1 {
+    background-image: url('path/to/tracksuit-image.jpg');
+  }
+  
+  /* Add more styling for additional slides */
+  
